@@ -1,0 +1,74 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+header a{
+    font-size: 30px;
+}
+
+.input{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    height: 100vh;
+}
+
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+}
+
+.meal-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.meal-about-card{
+    width: 70%;
+}
+
+.meal-instruction{
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.tags{
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.meal-about-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 1020px) {
+    .meal-about-card{
+        width: 90%;
+    }
+}
+
+@media (max-width: 790px) {
+    .meal-about-card{
+        width: 100%;
+        padding: 0 10px;
+    }
+}
